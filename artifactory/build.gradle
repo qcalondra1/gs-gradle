@@ -14,7 +14,7 @@ repositories {
 // tag::jar[]
 jar {
     baseName = 'gs-gradle'
-    version =  '0.1.0'
+    version =  '0.7.5'
 }
 // end::jar[]
 
@@ -37,7 +37,7 @@ publishing {
         jar(MavenPublication) {
             groupId 'testjenkinsdemo'
             artifactId 'gs-gradle'
-            version '1.0'
+            version '7.5'
             from components.java
         }
     }
